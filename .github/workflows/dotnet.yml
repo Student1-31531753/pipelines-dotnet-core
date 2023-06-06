@@ -32,9 +32,9 @@ jobs:
     - name: Upload Artifact for deployment job
       uses: actions/upload-artifact@v3.1.2
       with:
-        # Artifact name
         name: webapp
-        path: webapp/**
+        path: website/**
+        
         # The desired behavior if no files are found using the provided path.
         
   deploy: 
